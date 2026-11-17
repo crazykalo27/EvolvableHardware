@@ -1,0 +1,132 @@
+{
+  "seed": 42,
+  "fault_bits": 8,
+  "positions": [
+    {
+      "line": 579,
+      "col": 38
+    },
+    {
+      "line": 579,
+      "col": 25
+    },
+    {
+      "line": 580,
+      "col": 36
+    },
+    {
+      "line": 579,
+      "col": 41
+    },
+    {
+      "line": 582,
+      "col": 17
+    },
+    {
+      "line": 580,
+      "col": 39
+    },
+    {
+      "line": 579,
+      "col": 37
+    },
+    {
+      "line": 579,
+      "col": 35
+    }
+  ],
+  "mutation_probability_per_bit": 0.125,
+  "population_size": 10,
+  "elitism_count": 1,
+  "recovered": true,
+  "recovery": {
+    "generation": 2,
+    "best_fitness": 1.0,
+    "mean_fitness": 0.63,
+    "mean_pairwise_hamming": 2.8666666666666667,
+    "best_distance_to_original": 4,
+    "best_genome": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "physical_evals": 12
+  },
+  "physical_evals": 12,
+  "unique_genomes_tested": 12,
+  "history": [
+    {
+      "generation": 0,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.5,
+      "mean_pairwise_hamming": 0.0,
+      "best_distance_to_original": 8,
+      "best_genome": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "physical_evals": 1
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.75,
+      "mean_fitness": 0.52,
+      "mean_pairwise_hamming": 2.311111111111111,
+      "best_distance_to_original": 5,
+      "best_genome": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "physical_evals": 9
+    },
+    {
+      "generation": 2,
+      "best_fitness": 1.0,
+      "mean_fitness": 0.63,
+      "mean_pairwise_hamming": 2.8666666666666667,
+      "best_distance_to_original": 4,
+      "best_genome": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "physical_evals": 12
+    }
+  ],
+  "cache": {
+    "00000000": 0.5,
+    "00000001": 0.5,
+    "10000000": 0.5,
+    "10000010": 0.5,
+    "00100000": 0.5,
+    "00010000": 0.5,
+    "01000010": 0.45,
+    "10100010": 0.5,
+    "11001000": 0.75,
+    "11000010": 0.55,
+    "11001001": 1.0,
+    "00101001": 0.5
+  }
+}

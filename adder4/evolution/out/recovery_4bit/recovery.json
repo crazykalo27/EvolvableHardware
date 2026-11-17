@@ -1,0 +1,91 @@
+{
+  "circuit": "adder4",
+  "tile": [
+    17,
+    1
+  ],
+  "seed": 42,
+  "fault_bits": 4,
+  "set_bits_in_tile": 97,
+  "positions": [
+    {
+      "line": 749,
+      "col": 38
+    },
+    {
+      "line": 742,
+      "col": 37
+    },
+    {
+      "line": 741,
+      "col": 38
+    },
+    {
+      "line": 754,
+      "col": 15
+    }
+  ],
+  "mutation_type": "SIMPLE",
+  "mutation_probability_per_bit": 0.25,
+  "crossover_probability": 0.0,
+  "selection": "FIT_PROP_SEL",
+  "population_size": 10,
+  "generations_budget": 30,
+  "elitism_count": 1,
+  "target_fitness": 1.0,
+  "fitness": "correct rows / 1280",
+  "recovered": true,
+  "recovery": {
+    "generation": 1,
+    "best_fitness": 1.0,
+    "mean_fitness": 0.65,
+    "mean_pairwise_hamming": 1.1777777777777778,
+    "best_distance_to_original": 3,
+    "best_genome": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "physical_evals": 5
+  },
+  "physical_evals": 5,
+  "unique_genomes_tested": 5,
+  "history": [
+    {
+      "generation": 0,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.5,
+      "mean_pairwise_hamming": 0.0,
+      "best_distance_to_original": 4,
+      "best_genome": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "physical_evals": 1
+    },
+    {
+      "generation": 1,
+      "best_fitness": 1.0,
+      "mean_fitness": 0.65,
+      "mean_pairwise_hamming": 1.1777777777777778,
+      "best_distance_to_original": 3,
+      "best_genome": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "physical_evals": 5
+    }
+  ],
+  "cache": {
+    "0000": 0.5,
+    "0100": 0.5,
+    "0010": 0.5,
+    "0001": 1.0,
+    "0110": 0.5
+  }
+}

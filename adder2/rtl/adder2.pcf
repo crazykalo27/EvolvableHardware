@@ -1,0 +1,12 @@
+# Shared RP-ICE bank. These pairs are already connected on the board.
+# a0 ICE_27 GPIO20    a1 ICE_26 GPIO24
+# b0 ICE_25 GPIO30    b1 ICE_23 GPIO25
+# s0 ICE_20 GPIO22    s1 ICE_19 GPIO23
+# cout ICE_18 GPIO27
+set_io a0 27
+set_io a1 26
+set_io b0 25
+set_io b1 23
+set_io s0 20
+set_io s1 19
+set_io cout 18

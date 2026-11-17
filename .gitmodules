@@ -1,0 +1,3 @@
+[submodule "vendor/BitstreamEvolutionPico2ice"]
+	path = vendor/BitstreamEvolutionPico2ice
+	url = https://github.com/evolvablehardware/BitstreamEvolutionPico2ice.git

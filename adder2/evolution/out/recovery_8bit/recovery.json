@@ -1,0 +1,189 @@
+{
+  "circuit": "adder2",
+  "tile": [
+    20,
+    20
+  ],
+  "seed": 42,
+  "fault_bits": 8,
+  "set_bits_in_tile": 61,
+  "positions": [
+    {
+      "line": 9691,
+      "col": 38
+    },
+    {
+      "line": 9687,
+      "col": 44
+    },
+    {
+      "line": 9687,
+      "col": 29
+    },
+    {
+      "line": 9692,
+      "col": 39
+    },
+    {
+      "line": 9689,
+      "col": 14
+    },
+    {
+      "line": 9688,
+      "col": 40
+    },
+    {
+      "line": 9688,
+      "col": 37
+    },
+    {
+      "line": 9687,
+      "col": 46
+    }
+  ],
+  "mutation_type": "SIMPLE",
+  "mutation_probability_per_bit": 0.125,
+  "crossover_probability": 0.0,
+  "selection": "FIT_PROP_SEL",
+  "population_size": 10,
+  "generations_budget": 30,
+  "elitism_count": 1,
+  "target_fitness": 1.0,
+  "fitness": "correct rows / 80",
+  "recovered": true,
+  "recovery": {
+    "generation": 4,
+    "best_fitness": 1.0,
+    "mean_fitness": 0.325,
+    "mean_pairwise_hamming": 2.888888888888889,
+    "best_distance_to_original": 2,
+    "best_genome": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "physical_evals": 21
+  },
+  "physical_evals": 21,
+  "unique_genomes_tested": 21,
+  "history": [
+    {
+      "generation": 0,
+      "best_fitness": 0.25,
+      "mean_fitness": 0.25,
+      "mean_pairwise_hamming": 0.0,
+      "best_distance_to_original": 8,
+      "best_genome": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "physical_evals": 1
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.25,
+      "mean_fitness": 0.2375,
+      "mean_pairwise_hamming": 2.311111111111111,
+      "best_distance_to_original": 8,
+      "best_genome": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "physical_evals": 9
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.275,
+      "mean_pairwise_hamming": 2.911111111111111,
+      "best_distance_to_original": 4,
+      "best_genome": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "physical_evals": 12
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.325,
+      "mean_pairwise_hamming": 3.2666666666666666,
+      "best_distance_to_original": 4,
+      "best_genome": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "physical_evals": 14
+    },
+    {
+      "generation": 4,
+      "best_fitness": 1.0,
+      "mean_fitness": 0.325,
+      "mean_pairwise_hamming": 2.888888888888889,
+      "best_distance_to_original": 2,
+      "best_genome": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "physical_evals": 21
+    }
+  ],
+  "cache": {
+    "00000000": 0.25,
+    "00000001": 0.25,
+    "10000000": 0.25,
+    "10000010": 0.25,
+    "00100000": 0.25,
+    "00010000": 0.25,
+    "01000010": 0.125,
+    "10100010": 0.25,
+    "11001000": 0.25,
+    "10010000": 0.25,
+    "11001001": 0.5,
+    "00101001": 0.25,
+    "01110000": 0.25,
+    "11011001": 0.5,
+    "00000010": 0.25,
+    "10001000": 0.25,
+    "10001001": 0.0,
+    "11001101": 0.5,
+    "11101101": 1.0,
+    "00001011": 0.0,
+    "10101001": 0.25
+  }
+}

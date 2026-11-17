@@ -1,0 +1,90 @@
+{
+  "circuit": "adder4",
+  "tile": [
+    17,
+    1
+  ],
+  "seed": 42,
+  "fault_bits": 4,
+  "fault_indexes": [
+    3,
+    14,
+    81,
+    94
+  ],
+  "critical_fault_index": 94,
+  "critical_position": {
+    "line": 754,
+    "col": 15
+  },
+  "operable_bits": 97,
+  "evolution_mask": "all set bits in the active logic tile",
+  "status": "interrupted",
+  "exit_code": 130,
+  "stopped_during": "generation 20, board call after physical eval 102",
+  "completed_physical_evals": 102,
+  "retained_generations": "14-19",
+  "recovered": false,
+  "best_fitness": 0.5,
+  "best_distance_to_original": 4,
+  "best_is_damaged_start": true,
+  "history": [
+    {
+      "generation": 14,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.331,
+      "mean_pairwise_hamming": 4.49,
+      "best_distance_to_original": 4
+    },
+    {
+      "generation": 15,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.384,
+      "mean_pairwise_hamming": 4.47,
+      "best_distance_to_original": 4
+    },
+    {
+      "generation": 16,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.375,
+      "mean_pairwise_hamming": 4.29,
+      "best_distance_to_original": 4
+    },
+    {
+      "generation": 17,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.372,
+      "mean_pairwise_hamming": 3.93,
+      "best_distance_to_original": 4
+    },
+    {
+      "generation": 18,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.463,
+      "mean_pairwise_hamming": 4.18,
+      "best_distance_to_original": 4
+    },
+    {
+      "generation": 19,
+      "best_fitness": 0.5,
+      "mean_fitness": 0.28,
+      "mean_pairwise_hamming": 5.31,
+      "best_distance_to_original": 4
+    }
+  ],
+  "visible_evals": 25,
+  "visible_eval_range": [
+    78,
+    102
+  ],
+  "fault_bit_restores_in_visible_evals": {
+    "3": 2,
+    "14": 0,
+    "81": 0,
+    "94": 0
+  },
+  "critical_bit_restored_count": 0,
+  "critical_bit_scores": [],
+  "visible_score_max": 0.5,
+  "visible_score_min": 0.039
+}

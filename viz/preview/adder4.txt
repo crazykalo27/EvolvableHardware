@@ -1,0 +1,21 @@
+adder4.asc
+logic tile 17,1
+
+a0    IN   pin 27  GPIO20   tile (18,31) → LC0 in_1 at (17,1), span-12, 30 tiles south
+a1    IN   pin 26  GPIO24   tile (18,31) → LC1 in_2 at (17,1), span-12, 30 tiles south
+a2    IN   pin 25  GPIO30   tile (19,31) → LC2 in_2 at (17,1), span-12, 30 tiles south
+a3    IN   pin 23  GPIO25   tile (19,31) → LC3 in_2 at (17,1), span-12, 30 tiles south
+b0    IN   pin 9   GPIO28   tile (15,0) → LC0 in_2 at (17,1), span-4, 2 tiles east
+b1    IN   pin 11  GPIO29   tile (17,0) → LC1 in_1 at (17,1), local, 1 tile north
+b2    IN   pin 2   GPIO2    tile (8,0) → LC2 in_1 at (17,1), span-4, 9 tiles east
+b3    IN   pin 3   GPIO3    tile (9,0) → LC3 in_1 at (17,1), span-4, 8 tiles east
+cout  OUT  pin 4   GPIO33   LC4 at (17,1) → tile (9,0), span-4, 8 tiles west
+s0    OUT  pin 20  GPIO22   LC0 at (17,1) → tile (19,0), span-4, 2 tiles east
+s1    OUT  pin 19  GPIO23   LC1 at (17,1) → tile (21,0), span-4, 4 tiles east
+s2    OUT  pin 18  GPIO27   LC2 at (17,1) → tile (22,0), span-4, 5 tiles east
+s3    OUT  pin 21  GPIO26   LC3 at (17,1) → tile (18,0), local, 1 tile east and 1 tile south
+
+carry  LC0 cout → LC1 in_3 inside tile (17,1)
+carry  LC1 cout → LC2 in_3 inside tile (17,1)
+carry  LC2 cout → LC3 in_3 inside tile (17,1)
+carry  LC3 cout → LC4 in_3 inside tile (17,1)

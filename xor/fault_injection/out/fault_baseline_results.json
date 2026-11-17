@@ -1,0 +1,1145 @@
+{
+  "seeds": [
+    42,
+    7,
+    99,
+    123
+  ],
+  "tile": [
+    8,
+    1
+  ],
+  "source_asc": "xor/build/xor.asc",
+  "nonzero_bits_in_tile": 17,
+  "seed_runs": [
+    {
+      "seed": 42,
+      "chosen_positions": [
+        {
+          "line": 579,
+          "col": 38
+        },
+        {
+          "line": 579,
+          "col": 25
+        },
+        {
+          "line": 580,
+          "col": 36
+        },
+        {
+          "line": 579,
+          "col": 41
+        },
+        {
+          "line": 582,
+          "col": 17
+        },
+        {
+          "line": 580,
+          "col": 39
+        },
+        {
+          "line": 579,
+          "col": 37
+        },
+        {
+          "line": 579,
+          "col": 35
+        }
+      ],
+      "results": [
+        {
+          "label": "xor_s42_f0",
+          "seed": 42,
+          "flips": 0,
+          "positions": [],
+          "accuracy": 1.0,
+          "matches": 20,
+          "total": 20,
+          "passed": true,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s42_f1",
+          "seed": 42,
+          "flips": 1,
+          "positions": [
+            {
+              "line": 579,
+              "col": 38,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 1.0,
+          "matches": 20,
+          "total": 20,
+          "passed": true,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s42_f2",
+          "seed": 42,
+          "flips": 2,
+          "positions": [
+            {
+              "line": 579,
+              "col": 38,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 25,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 0,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s42_f4",
+          "seed": 42,
+          "flips": 4,
+          "positions": [
+            {
+              "line": 579,
+              "col": 38,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 25,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 36,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 41,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 0,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s42_f8",
+          "seed": 42,
+          "flips": 8,
+          "positions": [
+            {
+              "line": 579,
+              "col": 38,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 25,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 36,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 41,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 39,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 37,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 35,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "chosen_positions": [
+        {
+          "line": 580,
+          "col": 32
+        },
+        {
+          "line": 579,
+          "col": 41
+        },
+        {
+          "line": 580,
+          "col": 22
+        },
+        {
+          "line": 582,
+          "col": 17
+        },
+        {
+          "line": 579,
+          "col": 25
+        },
+        {
+          "line": 579,
+          "col": 35
+        },
+        {
+          "line": 580,
+          "col": 26
+        },
+        {
+          "line": 580,
+          "col": 36
+        }
+      ],
+      "results": [
+        {
+          "label": "xor_s7_f0",
+          "seed": 7,
+          "flips": 0,
+          "positions": [],
+          "accuracy": 1.0,
+          "matches": 20,
+          "total": 20,
+          "passed": true,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s7_f1",
+          "seed": 7,
+          "flips": 1,
+          "positions": [
+            {
+              "line": 580,
+              "col": 32,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 0,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s7_f2",
+          "seed": 7,
+          "flips": 2,
+          "positions": [
+            {
+              "line": 580,
+              "col": 32,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 41,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 0,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s7_f4",
+          "seed": 7,
+          "flips": 4,
+          "positions": [
+            {
+              "line": 580,
+              "col": 32,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 41,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 22,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s7_f8",
+          "seed": 7,
+          "flips": 8,
+          "positions": [
+            {
+              "line": 580,
+              "col": 32,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 41,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 22,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 25,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 35,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 26,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 36,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 99,
+      "chosen_positions": [
+        {
+          "line": 580,
+          "col": 39
+        },
+        {
+          "line": 582,
+          "col": 17
+        },
+        {
+          "line": 579,
+          "col": 38
+        },
+        {
+          "line": 580,
+          "col": 29
+        },
+        {
+          "line": 579,
+          "col": 37
+        },
+        {
+          "line": 580,
+          "col": 43
+        },
+        {
+          "line": 580,
+          "col": 36
+        },
+        {
+          "line": 582,
+          "col": 15
+        }
+      ],
+      "results": [
+        {
+          "label": "xor_s99_f0",
+          "seed": 99,
+          "flips": 0,
+          "positions": [],
+          "accuracy": 1.0,
+          "matches": 20,
+          "total": 20,
+          "passed": true,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s99_f1",
+          "seed": 99,
+          "flips": 1,
+          "positions": [
+            {
+              "line": 580,
+              "col": 39,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 1.0,
+          "matches": 20,
+          "total": 20,
+          "passed": true,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s99_f2",
+          "seed": 99,
+          "flips": 2,
+          "positions": [
+            {
+              "line": 580,
+              "col": 39,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 0,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s99_f4",
+          "seed": 99,
+          "flips": 4,
+          "positions": [
+            {
+              "line": 580,
+              "col": 39,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 38,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 29,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s99_f8",
+          "seed": 99,
+          "flips": 8,
+          "positions": [
+            {
+              "line": 580,
+              "col": 39,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 38,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 29,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 37,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 43,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 36,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 15,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 123,
+      "chosen_positions": [
+        {
+          "line": 579,
+          "col": 35
+        },
+        {
+          "line": 580,
+          "col": 26
+        },
+        {
+          "line": 582,
+          "col": 17
+        },
+        {
+          "line": 580,
+          "col": 39
+        },
+        {
+          "line": 580,
+          "col": 22
+        },
+        {
+          "line": 579,
+          "col": 41
+        },
+        {
+          "line": 580,
+          "col": 43
+        },
+        {
+          "line": 579,
+          "col": 25
+        }
+      ],
+      "results": [
+        {
+          "label": "xor_s123_f0",
+          "seed": 123,
+          "flips": 0,
+          "positions": [],
+          "accuracy": 1.0,
+          "matches": 20,
+          "total": 20,
+          "passed": true,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 5,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s123_f1",
+          "seed": 123,
+          "flips": 1,
+          "positions": [
+            {
+              "line": 579,
+              "col": 35,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.75,
+          "matches": 15,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 5,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s123_f2",
+          "seed": 123,
+          "flips": 2,
+          "positions": [
+            {
+              "line": 579,
+              "col": 35,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 26,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s123_f4",
+          "seed": 123,
+          "flips": 4,
+          "positions": [
+            {
+              "line": 579,
+              "col": 35,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 26,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 39,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        },
+        {
+          "label": "xor_s123_f8",
+          "seed": 123,
+          "flips": 8,
+          "positions": [
+            {
+              "line": 579,
+              "col": 35,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 26,
+              "tile": "8,1"
+            },
+            {
+              "line": 582,
+              "col": 17,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 39,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 22,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 41,
+              "tile": "8,1"
+            },
+            {
+              "line": 580,
+              "col": 43,
+              "tile": "8,1"
+            },
+            {
+              "line": 579,
+              "col": 25,
+              "tile": "8,1"
+            }
+          ],
+          "accuracy": 0.5,
+          "matches": 10,
+          "total": 20,
+          "passed": false,
+          "per_pattern_summary": {
+            "00": {
+              "matches": 5,
+              "total": 5
+            },
+            "01": {
+              "matches": 0,
+              "total": 5
+            },
+            "10": {
+              "matches": 0,
+              "total": 5
+            },
+            "11": {
+              "matches": 5,
+              "total": 5
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "averages": [
+    {
+      "flips": 0,
+      "mean_accuracy": 1.0,
+      "stdev_accuracy": 0.0,
+      "mean_pass_rate": 1.0,
+      "n_seeds": 4,
+      "accuracies": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "passes": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "flips": 1,
+      "mean_accuracy": 0.8125,
+      "stdev_accuracy": 0.23935677693908453,
+      "mean_pass_rate": 0.5,
+      "n_seeds": 4,
+      "accuracies": [
+        1.0,
+        0.5,
+        1.0,
+        0.75
+      ],
+      "passes": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "flips": 2,
+      "mean_accuracy": 0.5,
+      "stdev_accuracy": 0.0,
+      "mean_pass_rate": 0.0,
+      "n_seeds": 4,
+      "accuracies": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "passes": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "flips": 4,
+      "mean_accuracy": 0.5,
+      "stdev_accuracy": 0.0,
+      "mean_pass_rate": 0.0,
+      "n_seeds": 4,
+      "accuracies": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "passes": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "flips": 8,
+      "mean_accuracy": 0.5,
+      "stdev_accuracy": 0.0,
+      "mean_pass_rate": 0.0,
+      "n_seeds": 4,
+      "accuracies": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "passes": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

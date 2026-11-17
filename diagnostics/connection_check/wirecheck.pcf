@@ -1,0 +1,12 @@
+# Shared RP-ICE bank (already connected on the pico2-ice PCB).
+# No jumper wires required for these pins.
+
+set_io in0 27
+set_io in1 26
+set_io in2 25
+set_io in3 23
+
+set_io out0 20
+set_io out1 19
+set_io out2 18
+set_io out3 21

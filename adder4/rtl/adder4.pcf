@@ -1,0 +1,20 @@
+# 10 of these pairs are hardwired on the pico2-ice.
+# b2, b3, and cout reuse the three XOR jumper positions (ICE_2, ICE_3, ICE_4).
+#
+# a0 ICE_27 GPIO20    a1 ICE_26 GPIO24    a2 ICE_25 GPIO30    a3 ICE_23 GPIO25
+# b0 ICE_9  GPIO28    b1 ICE_11 GPIO29    b2 ICE_2  GPIO2     b3 ICE_3  GPIO3
+# s0 ICE_20 GPIO22    s1 ICE_19 GPIO23    s2 ICE_18 GPIO27    s3 ICE_21 GPIO26
+# cout ICE_4 GPIO33
+set_io a0 27
+set_io a1 26
+set_io a2 25
+set_io a3 23
+set_io b0 9
+set_io b1 11
+set_io b2 2
+set_io b3 3
+set_io s0 20
+set_io s1 19
+set_io s2 18
+set_io s3 21
+set_io cout 4

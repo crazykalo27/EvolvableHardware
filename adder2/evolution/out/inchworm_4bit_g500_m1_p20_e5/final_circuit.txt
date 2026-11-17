@@ -1,0 +1,12 @@
+best.asc
+logic tile 20,20
+
+a0    IN   pin 27  GPIO20   tile (18,31) → LC0 in_1 at (20,20), span-4, 11 tiles south
+b0    IN   pin 25  GPIO30   tile (19,31) → LC0 in_2 at (20,20), span-4, 11 tiles south
+b1    IN   pin 23  GPIO25   tile (19,31) → LC1 in_1 at (20,20), span-4, 11 tiles south
+cout  OUT  pin 18  GPIO27   LC2 at (20,20) → tile (22,0), span-4, 20 tiles south
+s0    OUT  pin 20  GPIO22   LC0 at (20,20) → tile (19,0), span-4, 20 tiles south
+s1    OUT  pin 19  GPIO23   LC1 at (20,20) → tile (21,0), span-4, 20 tiles south
+
+carry  LC0 cout → LC1 in_3 inside tile (20,20)
+carry  LC1 cout → LC2 in_3 inside tile (20,20)

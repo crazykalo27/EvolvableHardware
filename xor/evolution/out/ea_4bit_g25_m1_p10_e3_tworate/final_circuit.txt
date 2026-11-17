@@ -1,0 +1,5 @@
+best.asc
+logic tile 8,1
+
+a     IN   pin 2   GPIO2    tile (8,0) → LC0 in_2 at (8,1), local, 1 tile north
+y     OUT  pin 4   GPIO33   LC0 at (8,1) → tile (9,0), span-4, 1 tile east and 1 tile south
